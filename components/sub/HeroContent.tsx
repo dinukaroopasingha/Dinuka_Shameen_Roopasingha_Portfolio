@@ -36,7 +36,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Front end developer with the experience in React web
+          I&apos;m Shameen Roopsingha a front-end developer with experience in React web
           development and UI/UX designing. Check out my projects and skills.
         </motion.p>
         <motion.a
