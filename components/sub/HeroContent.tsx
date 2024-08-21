@@ -9,6 +9,7 @@ import {
 } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
+import Link from "next/link";
 
 const HeroContent = () => {
   return (
@@ -39,12 +40,14 @@ const HeroContent = () => {
           I&apos;m Shameen Roopsingha a front-end developer with experience in React web
           development and UI/UX designing. Check out my projects and skills.
         </motion.p>
+           <Link href="https://github.com/dinukaroopasingha?tab=repositories">
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
           Learn More!
         </motion.a>
+             </Link>
       </div>
 
       <motion.div
